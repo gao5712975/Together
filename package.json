@@ -1,0 +1,10 @@
+{
+  "name": "Together",
+  "version": "0.0.1",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.3.3",
+    "socket.io": "^1.3.7",
+    "underscore": "^1.8.3"
+  }
+}

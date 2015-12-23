@@ -1,0 +1,23 @@
+{
+  "name": "Together",
+  "version": "0.0.1",
+  "authors": [
+    "Kite"
+  ],
+  "description": "Together",
+  "keywords": [
+    "Together"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
