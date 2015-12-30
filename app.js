@@ -8,6 +8,7 @@ var path = require("path");
 var uuid = require('node-uuid');
 var port = 3000;
 
+require('./configs/config')(app);
 /*加载中间件*/
 app.use(express.static('public'));
 //cookie
@@ -22,7 +23,7 @@ morgan.token('id', function getId(req) {
     return req.id
 });
 app.use(assignId);
-app.use(morgan("[:id :method :url :response-time]"));
+app.use(morgan("[:id :method :url :response-time :status]"));
 /*启动服务*/
 app.listen(port);
 
